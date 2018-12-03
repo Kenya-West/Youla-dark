@@ -1,0 +1,159 @@
+/* HEADER */
+
+.eECStf,
+.bVLePg,
+.nvUhM,
+.ejsUrF {
+    @include general-black();
+}
+
+/* header links */
+.lhXGlM,
+.gQOUoB {
+    color: $accent-color--light;
+
+    &:hover {
+        color: $font-color;
+    }
+}
+
+/* header inputs */
+.jBWhTA,
+.beMUhp,
+.sc-iQNlJl {
+    @include button-main();
+}
+
+.MUzOR input[type='text'] {
+    @include input-main();
+}
+
+.sc-eXNvrr {
+    background: $bg-color;
+}
+
+/* CONTENT */
+
+/* content carousel */
+.banners_rotator_container .sc-kUaPvJ {
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+/* content categories */
+.category_rotator_container_react .sc-dTdPqK {
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.sc-krDsej>svg {
+    opacity: 0.2;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.jyLKeg {
+    color: $accent-color--light;
+}
+
+/* content ads */
+
+.product_item>a {
+    @include general-dark();
+    box-shadow: none;
+}
+
+.product_item__image {
+    border: $border;
+}
+
+.product_item__description {
+    color: $font-color;
+}
+
+.product_item__title {
+    color: $accent-color--light;
+}
+
+.product_list--type_inline .product_item__content {
+    border: $border;
+}
+
+.sc-EHOje {
+    @include button-main();
+}
+
+.product_list_action {
+    @include general-black();
+
+    &::after {
+        background-color: transparent;
+    }
+}
+
+.Select-control {
+    @include dropdown-main();
+}
+
+.Select.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label,
+.Select.has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: $accent-color--light;
+}
+
+.suggest_list,
+.suggest_list__item {
+    @include general-dark--hover();
+}
+
+.suggest_list__item--is_focused,
+.suggest_list__item:hover {
+    background-color: lighten($accent-color--dark, 15%) !important;
+    color: $font-color !important;
+}
+
+.suggest_list__item.suggest_list__item--disabled {
+    background-color: lighten($accent-color--dark, 25%) !important;
+    color: $accent-color--light !important;
+}
+
+.Select-menu,
+.suggest_list {
+    background: $accent-color--dark !important;
+}
+
+/* content aside */
+
+.sc-bZQynM {
+    @include general-black();
+}
+
+.sc-cvbbAY {
+    @include general-black--hover();
+}
+
+.sc-eHgmQL,
+.sc-TOsTZ {
+    color: $font-color;
+}
+
+.sc-kvZOFW {
+    @include input-main();
+}
+
+.sc-hSdWYo::before,
+.sc-TOsTZ::before,
+.sc-TOsTZ::after {
+    color: $font-color;
+}
+
+.social_block {
+    @include general-black--hover();
+}

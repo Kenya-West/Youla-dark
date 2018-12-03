@@ -1,0 +1,29 @@
+/* Style of basic components */
+
+body,
+.body {
+    @include general-black();
+}
+
+a {
+    color: $accent-color--light;
+
+    &:hover {
+        color: $font-color
+    }
+}
+
+input,
+input.text,
+textarea {
+    @include input-main();
+}
+
+button,
+input.submit {
+    @include button-main()
+}
+
+select {
+    @include dropdown-main();
+}
