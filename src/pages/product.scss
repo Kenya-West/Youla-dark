@@ -1,0 +1,130 @@
+/* HEADER */
+header {
+
+    .jDCtzt,
+    .gcqPTb,
+    .kdOyKj,
+    .iWmlxw {
+        @include general-black();
+    }
+
+    /* header links */
+    .eVxBIO,
+    .gQOUoB {
+        color: $accent-color--light;
+
+        &:hover {
+            color: $font-color;
+        }
+    }
+
+    /* header inputs */
+    .bRgXHn,
+    .fjZOxN,
+    .sc-gipzik {
+        @include button-main();
+    }
+
+    .jmYKbN input[type='text'] {
+        @include input-main();
+    }
+
+    .cJHmwg {
+        background: $bg-color;
+    }
+
+    /* header menu */
+
+    .btcnpa {
+        @include general-dark();
+    }
+
+    .hRqYlG,
+    .kdLsjz {
+        @include button-main();
+    }
+
+    .kdLsjz {
+        background-color: lighten($accent-color--light, 15%);
+    }
+}
+
+/* CONTENT */
+section.cylaks {
+    @include general-black();
+
+    .sc-iQNlJl.gwTIRy {
+        @include general-black();
+    }
+
+    .YheDT+* {
+        @include general-black();
+    }
+
+    /* content texts and captions */
+    .bkNWHv,
+    .iTBYEV {
+        color: $font-color;
+    }
+
+    .hqTGiD,
+    .klRhQL,
+    .cIvsam,
+    .jhmSFc {
+        color: $accent-color--light;
+    }
+
+    .iLTpoI {
+        background: $bg-color;
+    }
+
+    /*Content buttons*/
+    .sc-bZQynM,
+    .gifasP,
+    .gyawrt,
+    .dGUZIj {
+        @include button-main();
+    }
+
+    /* Remove border from characteristics */
+    .huaYFC+tbody {
+        border: $border;
+    }
+
+    /* Content share icons */
+    .vIPQU {
+        background-color: $bg-color;
+    }
+
+}
+
+/* FOOTER */
+footer.cdxTnv {
+    @include general-black();
+}
+
+/* OTHER */
+#app .ktJsBY {
+    background-color: $bg-color;
+}
+
+#app .eMslXP {
+    .jscPIq {
+        @include general-dark();
+    }
+
+    .gEaesV,
+    .kcOnkz,
+    .epUVIh,
+    .kpUkWp {
+        @include button-main();
+    }
+
+    .kpUkWp {
+        background-color: lighten($accent-color--dark, 15%)
+    }
+
+    .iTBYEV {
+        color: $font-color;
+    }
+}
