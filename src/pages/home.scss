@@ -1,35 +1,37 @@
 /* HEADER */
+header {
 
-.eECStf,
-.bVLePg,
-.nvUhM,
-.ejsUrF {
-    @include general-black();
-}
-
-/* header links */
-.lhXGlM,
-.gQOUoB {
-    color: $accent-color--light;
-
-    &:hover {
-        color: $font-color;
+    .eECStf,
+    .bVLePg,
+    .nvUhM,
+    .ejsUrF {
+        @include general-black();
     }
-}
 
-/* header inputs */
-.jBWhTA,
-.beMUhp,
-.sc-iQNlJl {
-    @include button-main();
-}
+    /* header links */
+    .lhXGlM,
+    .gQOUoB {
+        color: $accent-color--light;
 
-.MUzOR input[type='text'] {
-    @include input-main();
-}
+        &:hover {
+            color: $font-color;
+        }
+    }
 
-.sc-eXNvrr {
-    background: $bg-color;
+    /* header inputs */
+    .jBWhTA,
+    .beMUhp,
+    .sc-iQNlJl {
+        @include button-main();
+    }
+
+    .MUzOR input[type='text'] {
+        @include input-main();
+    }
+
+    .sc-eXNvrr {
+        background: $bg-color;
+    }
 }
 
 /* CONTENT */
